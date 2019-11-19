@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    container_name: nginx-proxy
+    ports:
+      - 80:80
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    networks:
+      - nginx_proxy
+
+networks:
+  nginx_proxy:
+    name: nginx_proxy
+    driver: bridge
