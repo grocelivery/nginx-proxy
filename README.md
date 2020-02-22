@@ -1,6 +1,6 @@
 # Odwrotny serwer proxy Nginx
 
-Kontener z zawierający odwrotny serwer proxy Nginx służący zarządzaniu wirtualnymi adresami hostów w wewnętrznej sieci Docker.
+Kontener z zawierający odwrotny serwer proxy Nginx służący zarządzaniu wieloma wirtualnymi adresami hostów w wewnętrznej sieci Docker.
 
 ### Wymagania
 ```
